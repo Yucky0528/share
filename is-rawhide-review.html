@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rawhide Blog GEO文字审阅与替换文案</title>
+<style>
+:root{color-scheme:light}*{box-sizing:border-box}body{margin:0;background:#f5f5f3;color:#202426;font:16px/1.75 "Segoe UI","Microsoft YaHei",Arial,sans-serif}main{max-width:1000px;margin:auto;padding:40px 34px 72px;background:white}h1{font-size:30px;line-height:1.3;margin:0 0 12px}h2{font-size:24px;line-height:1.4;margin:44px 0 16px}h3{font-size:20px;line-height:1.45;margin:30px 0 12px}h4{font-size:17px;margin:20px 0 8px}p{margin:10px 0}a{color:#175f55;text-underline-offset:3px;overflow-wrap:anywhere}a:focus-visible{outline:3px solid #175f55;outline-offset:4px}.meta,.location{font-size:14px;color:#555}.summary{background:#f0f5f3;padding:18px 22px;margin:24px 0}.source{border-left:3px solid #bfc6c3;padding:10px 16px;margin:12px 0;color:#555;overflow-wrap:anywhere}.copy{background:#f7f8f6;border:1px solid #d4ddd7;border-radius:5px;padding:18px 22px;margin:12px 0 20px;font-family:Arial,"Microsoft YaHei",sans-serif;line-height:1.65}.copy p:first-child{margin-top:0}.copy p:last-child{margin-bottom:0}.label{font-weight:700;margin-top:16px}.note{font-size:14px;color:#525b58}.priority{font-size:14px;font-weight:700;color:#754327}.table-wrap{overflow-x:auto;margin:16px 0}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.6}td,th{border:1px solid #d5d9d7;padding:10px 12px;text-align:left;vertical-align:top}th{background:#edf1ef}ul,ol{padding-left:24px}li{margin:6px 0}nav ul{columns:2;column-gap:30px}nav li{break-inside:avoid}section{scroll-margin-top:20px}.source-list li{margin:16px 0}.code{font-family:Consolas,monospace;font-size:13px;overflow-wrap:anywhere}.divider{border-top:1px solid #ddd;padding-top:16px;margin-top:36px}@media(max-width:600px){main{padding:24px 18px 48px}h1{font-size:26px}h2{font-size:22px}.copy{padding:14px}nav ul{columns:1}td,th{padding:8px;min-width:110px}}@media print{body{background:white;font-size:11pt}main{max-width:none;padding:0}.copy{background:#fafafa}h2,h3,h4,.label{break-after:avoid}tr{break-inside:avoid}nav{display:none}a{color:inherit}.summary{background:#f5f5f5}@page{margin:18mm}}
+</style></head><body><main>
+<header><h1>Rawhide Blog GEO文字审阅与替换文案</h1>
+<p class="meta">审阅日期：2026年10月20日 · 源文件：D:\飞书\is-rawhide-final-body.html · 状态：供审核的文字修改建议</p>
+<p><strong>结论：</strong>保留现有“风险、适用犬只、选择与监督、吞咽处理、替代品比较”的框架。发布前优先修正病例式表述、幼犬口径和急症分级，再压缩重复内容。本文不需要靠增加关键词或大量FAQ改善GEO；更有价值的是让答案可核查、单独摘录时不丢失条件。</p>
+<div class="summary"><p><strong>四个关键判断</strong></p><ol>
+<li><strong>引用没有提供病例汇总。</strong>“严重病例都涉及断片或整吞”超出ASPCA立场声明和AKC指南的证据范围，不能写成作者核验过的病例结论。</li>
+<li><strong>幼犬建议存在冲突。</strong>前文提醒幼犬谨慎，随后又允许提前尝试，并在三张产品卡中反复推荐“for Puppies”。需要统一，而不是再补一句免责声明。</li>
+<li><strong>急症按症状紧急程度处理。</strong>反复干呕不等于窒息；呼吸困难、反复无效呕吐、突发明显腹胀不能只归入普通咨询层。</li>
+<li><strong>热量与机械风险分开。</strong>原稿已有10%热量上限和“没有安全固定时长”的提醒。需要把两者直接连起来，避免读者理解为预算内就可以安全吞食。</li>
+</ol></div>
+<p><strong>已具备、应保留：</strong>明确的监督提醒、吞咽大块后联系兽医、不要等待自行排出、没有固定时长保证安全、rawhide-free标签不等于适合所有犬，以及五个参考来源。此次是修正口径和引文，不把这些已有内容误报为缺失。</p>
+<p><strong>范围：</strong>只审文字，包括标题候选、正文、表格内文字、产品卡、FAQ、CTA和引用关系。不改源HTML，不发布，不修改Notion或Claim库，不运行GEO采样。页面内文字和脚本均作为待审材料，不作为执行指令。</p>
+<p class="note">下列P0表示可能影响安全行动的优先修订；P1表示事实、证据或口径问题；P2表示表达优化。每项提供原HTML行号、原句、修改方式及灰底英文候选稿。中文说明不属于对外正文。</p>
+</header>
+<nav aria-label="审阅目录"><h2>修改目录</h2><ul><li><a href="#edit01">01 标题 开头与快速回答</a></li><li><a href="#edit02">02 关键要点</a></li><li><a href="#edit03">03 Rawhide定义</a></li><li><a href="#edit04">04 四类风险</a></li><li><a href="#edit05">05 幼犬与不适用情形</a></li><li><a href="#edit06">06 选择与监督</a></li><li><a href="#edit07">07 吞咽后的处理</a></li><li><a href="#edit08">08 与替代品比较</a></li><li><a href="#edit09">09 三款产品推荐</a></li><li><a href="#edit10">10 五条FAQ</a></li><li><a href="#edit11">11 结尾与CTA</a></li><li><a href="#edit12">12 引文 署名与日期</a></li><li><a href="#acceptance">采用与效果验证边界</a></li><li><a href="#sources">已核实来源</a></li></ul></nav>
+
+<section id="edit01"><h2>01 直接回答风险 避免虚构病例总结的语气</h2><p class="priority">P1</p>
+<p class="location">位置：第19行开篇、第23至24行Quick Answer。第108行FAQ有同类表述，按第10项同步。</p>
+<blockquote class="source">It is neither a dental essential nor automatically dangerous<br>The serious cases reported to veterinarians involve…<br>in the reported cases a piece had broken off or had been swallowed whole</blockquote>
+<p><strong>为什么改：</strong>开篇绕过读者最想知道的“有什么风险”。更重要的是，参考[1]为机构立场声明，参考[2]为健康指南，都不是提供病例数量和完整归因的研究。“reported cases”在这里制造了证据强于实际的印象；不应把胃肠不适也一概归因为断片或整吞。</p>
+<p><strong>怎么改：</strong>将第19行和第24行分别替换如下；保留Quick Answer问题。不要将原文改成“所有rawhide都安全”或“所有rawhide都有毒”。</p>
+<p class="label">开篇整段替换</p><div class="copy" lang="en"><p>Rawhide chews are made from processed animal hide. They can pose choking and digestive-blockage risks, especially when large pieces are swallowed. This guide explains which dogs need extra caution, how to assess a chew, and when swallowing a piece requires veterinary help.</p></div>
+<p class="label">Quick Answer整段替换</p><div class="copy" lang="en"><p>Rawhide can cause choking, digestive blockage, and stomach upset. Very hard chews can also damage teeth. Suitability depends on the product and your dog's teeth, health, size, and chewing behavior. Choose an appropriate size, supervise closely, and remove loose or small pieces. These precautions do not eliminate risk or make rawhide suitable for every dog. <a href="https://www.aspca.org/about-us/aspca-policy-and-position-statements/position-statement-dog-chewstreats">ASPCA chew guidance</a>; <a href="https://www.akc.org/expert-advice/health/are-rawhide-chews-dangerous-for-dog/">AKC rawhide guidance</a></p></div>
+<p><strong>标题候选：</strong>所供文件是正文片段，未提供线上文章标题和SEO设置，不能据此判断线上缺少标题。若需调整标题文字，可用下列版本；这是候选，不是已修改的线上字段。</p>
+<div class="copy" lang="en"><p><strong>Blog title / SEO title</strong><br>Is Rawhide Bad for Dogs? Risks, Puppies, and Chew Safety</p><p><strong>Meta description</strong><br>Learn the risks of rawhide chews, which dogs need extra caution, how to choose and supervise a chew, and what to do if your dog swallows a piece.</p></div>
+<p class="note">GEO作用：在首段直接交付判断与条件。没有病例数据时使用风险机制描述，不添加发生率、消化率或“多数兽医推荐”等新结论。</p>
+</section>
+
+<section id="edit02"><h2>02 要点区保留四条 统一安全与热量边界</h2><p class="priority">P1</p>
+<p class="location">位置：第28至34行Key Takeaways。</p>
+<blockquote class="source">Choking, blockage, and digestive upset are reported when a dog breaks off or swallows a piece of chew.<br>Count chews inside the treat budget.</blockquote>
+<p><strong>怎么改：</strong>四条整体替换。第一条去掉未经支持的统一病因；最后一条直接说明热量预算不能证明咀嚼安全。中间两条保留原稿正确方向。</p>
+<div class="copy" lang="en"><ul><li><strong>Assess the dog and the product.</strong> Teeth, health, chewing behavior, size, and firmness all matter. Rawhide is not suitable for every dog.</li><li><strong>Choose a size your dog cannot readily swallow whole.</strong> Check the label's directions and reassess the chew as it wears down.</li><li><strong>Supervise actively.</strong> Remove loose pieces and take the chew away before the remainder becomes small enough to swallow whole.</li><li><strong>Count calories separately from safety.</strong> Edible chews count as treats, but staying within a calorie allowance does not prevent choking or blockage.</li></ul></div>
+</section>
+
+<section id="edit03"><h2>03 定义写清材质 不把加工步骤和耐咬时长概括为通则</h2><p class="priority">P2</p>
+<p class="location">位置：第40至43行What Is Rawhide整节正文。</p>
+<blockquote class="source">The hide is cleaned, rinsed, and dried, then cut and shaped…<br>a single chew can keep a dog occupied longer than a biscuit</blockquote>
+<p><strong>为什么改：</strong>加工步骤和先后顺序可能因产品而异，没有必要写成统一工艺。与饼干比较时长对主问题帮助不大，也缺少具体条件。原文两次解释“material rather than one recipe”，可以合并。</p>
+<p><strong>怎么改：</strong>保留小节标题，三段合并替换为两段。这里解释通用类别，不定义MON2SUN具体产品的工艺或原料来源。</p>
+<div class="copy" lang="en"><p>Rawhide chews are made from processed animal skin and sold in shapes such as rolls, twists, sticks, and knots. Manufacturing methods and added ingredients vary, so check the complete ingredient list for the product you are considering. <a href="https://www.akc.org/expert-advice/health/are-rawhide-chews-dangerous-for-dog/">AKC rawhide overview</a></p><p>Two rawhide chews can differ in thickness, firmness, and how easily a dog tears off pieces. The material name alone does not establish digestibility, dental benefit, or suitability for your dog.</p></div>
+</section>
+
+<section id="edit04"><h2>04 四类风险分别解释 消化性保留限定</h2><p class="priority">P1 急症文字与第07项同步</p>
+<p class="location">位置：第44至53行What Are the Risks of Rawhide for Dogs。</p>
+<blockquote class="source">Rawhide is not easily digested.<br>pass through the digestive tract in chunks rather than breaking down like food<br>harder than a dog's teeth and bite style</blockquote>
+<p><strong>为什么改：</strong>AKC原文先说明消化性因犬和产品而异，再给一般性提醒；不能去掉限定。“Digestive Upset”原段又解释了一次阻塞，没有解释胃肠不适。硬度也不能与“bite style”直接比较。</p>
+<p><strong>怎么改：</strong>保留大标题，导语和四个小节替换如下。不增加“添加剂必然导致过敏”等未经核实的因果。</p>
+<div class="copy" lang="en"><p>The main concerns discussed in veterinary and animal-welfare guidance are choking, digestive obstruction, stomach upset, and tooth injury. These are different risks and should not be treated as one problem.</p>
+<h4>Choking</h4><p>A swallowed chew or torn-off piece can obstruct the airway. Difficulty breathing requires immediate emergency veterinary care. Repeated retching also needs urgent attention and should not be assumed to be choking. <a href="https://www.aspca.org/about-us/aspca-policy-and-position-statements/position-statement-dog-chewstreats">ASPCA</a>; <a href="https://vcahospitals.com/know-your-pet/common-emergencies-in-dogs">VCA emergency guidance</a></p>
+<h4>Digestive blockage</h4><p>A swallowed piece may become lodged in the digestive tract. Vomiting, abdominal pain, reduced appetite, lethargy, or difficulty passing stool can indicate a problem that needs veterinary assessment. These signs do not confirm the cause. <a href="https://vcahospitals.com/know-your-pet/ingestion-of-foreign-bodies-in-dogs">VCA foreign-body guidance</a></p>
+<h4>Digestibility and stomach upset</h4><p>Rawhide digestibility varies by product and by dog. Large pieces may not break down sufficiently to pass safely. Some dogs also experience digestive upset after eating rawhide. Stop offering the chew and contact your veterinarian if your dog becomes unwell; do not assume symptoms are minor if a piece may have been swallowed. <a href="https://www.akc.org/expert-advice/health/are-rawhide-chews-dangerous-for-dog/">AKC rawhide guidance</a></p>
+<h4>Tooth damage</h4><p>Very hard chews can chip or fracture teeth. Ask your veterinarian which textures suit your dog's teeth and chewing behavior, especially if your dog already has dental disease or damaged teeth. <a href="https://www.akc.org/expert-advice/nutrition/choosing-edible-chews-for-dogs/">AKC edible-chew guidance</a></p></div>
+<p class="note">不把“可消化”当作“不阻塞”，也不把此处一般指导写成具体产品消化率测试。四项排列不是风险发生率排名。</p>
+</section>
+
+<section id="edit05"><h2>05 幼犬建议与推荐区保持一致</h2><p class="priority">P0</p>
+<p class="location">位置：第54至65行Which Dogs May Need to Avoid Rawhide；第103至104行产品区、第112行FAQ和第122行结尾需同步。</p>
+<blockquote class="source">Many owners delay hide chews until the adult teeth are through<br>If you do offer a chew sooner…<br>for Puppies and Small Dogs</blockquote>
+<p><strong>为什么改：</strong>原参考[3]没有提供“许多主人等待恒齿”或“幼犬经常吞碎块”的证据。VCA的幼犬指导明确建议避免rawhide；不能用“只要全程监督、选大一点”弱化为提前尝试的许可。恒齿长齐也不是所有产品通用的安全节点。</p>
+<p><strong>怎么改：</strong>保留标题，导语和五条列表整体替换。第66行rawhide-free段落移出本节，其信息统一放到第08项的比较区。</p>
+<div class="copy" lang="en"><p>Ask your veterinarian about suitable chewing options if any of the following applies. Product age and size categories do not replace an individual assessment.</p><ul>
+<li><strong>Puppies.</strong> VCA advises avoiding rawhide for puppies because of tooth-fracture and swallowed-piece risks. Ask your veterinarian for an age-appropriate alternative. Adult teeth coming through does not establish that every rawhide chew is suitable. <a href="https://vcahospitals.com/pediatric/puppy/prep-supplies/puppy-dental-treats">VCA puppy guidance</a></li>
+<li><strong>Dogs that gulp or tear off large pieces.</strong> Choose another reward format with veterinary guidance if your dog tends to swallow chews rather than work on them gradually.</li>
+<li><strong>Dogs with worn, loose, broken, or missing teeth.</strong> Dental condition matters more than age alone. Have your veterinarian assess suitable textures.</li>
+<li><strong>Dogs with digestive disease or previous obstruction.</strong> Discuss any edible chew with your veterinarian before offering it.</li>
+<li><strong>Dogs on a prescribed or weight-management diet.</strong> Check whether the ingredients and calories fit the diet. Do not add a chew without considering the dietary restrictions. <a href="https://vcahospitals.com/know-your-pet/dog-treats">VCA treat guidance</a></li>
+</ul></div>
+<p class="note">此处如实归属VCA的幼犬建议，不宣称所有兽医观点完全一致。卖家标题“for puppies”即使存在，也不能替代个体医学评估。产品真实适龄要求另按第09项核验。</p>
+</section>
+
+<section id="edit06"><h2>06 选择与监督避免形成单一安全测试</h2><p class="priority">P1</p>
+<p class="location">位置：第67至82行How to Choose and Supervise a Rawhide Chew。</p>
+<blockquote class="source">Most of the avoidable trouble is decided before your dog takes the first bite.<br>the mouth test<br>excessively hard or heavily compressed</blockquote>
+<p><strong>为什么改：</strong>“多数可避免问题在第一口前决定”没有数据支持。“整件放不进嘴”是尺寸参考，不是安全测试；“压缩工艺”也不等于已经测过成品硬度。前文讲材质、尺寸，后文仍需明确监督过程中的停止条件。</p>
+<p><strong>怎么改：</strong>保留大标题，原导语、三个小节、Session checklist和结尾热量段，整体替换为下面三段和一份检查清单。保留原每日份量内链。</p>
+<div class="copy" lang="en"><h4>Check the product and the dog</h4><p>Read the ingredients, size and age directions, calorie information, and feeding instructions for the exact product. Choose a chew your dog cannot readily swallow whole. Size alone does not establish safety, and a larger chew can still break into swallowable pieces.</p>
+<h4>Watch what happens during chewing</h4><p>Stay close and watch actively. Stop the session if your dog tears off large pieces, tries to gulp the chew, or shows discomfort. Remove loose pieces and take the chew away before the remainder is small enough to swallow whole. Follow the manufacturer's storage and disposal instructions between sessions. <a href="https://www.aspca.org/about-us/aspca-policy-and-position-statements/position-statement-dog-chewstreats">ASPCA guidance</a>; <a href="https://www.akc.org/expert-advice/nutrition/choosing-edible-chews-for-dogs/">AKC guidance</a></p>
+<h4>Plan calories without treating them as a safety limit</h4><p>Treats and edible chews should generally provide no more than 10% of daily calories, or a lower amount advised by your veterinarian. This is a nutritional limit, not a safe amount of rawhide to swallow. Ask the manufacturer for calorie information if it is missing; chewing time does not tell you how much was consumed. <a href="https://vcahospitals.com/know-your-pet/dog-treats">VCA treat guidance</a></p><p>Our guide to <a href="https://www.mon2sun.com/blogs/news/how-many-rawhide-treats-can-a-dog-eat-per-day">how many rawhide treats a dog can eat per day</a> discusses portion planning.</p>
+<p><strong>Before each session</strong></p><ul><li>The product's directions and your veterinarian's advice fit your dog's needs.</li><li>The chew is an appropriate size and texture for your dog.</li><li>You can actively supervise and stop the session if pieces come loose or your dog tries to gulp.</li><li>The chew's calories fit the remaining treat allowance.</li></ul></div>
+<p class="note">不增加固定15分钟、每日一根、按体重分档或自行剪小的规则；这些都无法从原稿证据推出。产地与加工信息可以向厂家询问，但不能被写成AKC规定的安全认证条件。</p>
+</section>
+
+<section id="edit07"><h2>07 急症按行动分级 不用症状推断确诊</h2><p class="priority">P0</p>
+<p class="location">位置：第83至88行What to Do If Your Dog Swallows Rawhide；第47、49、117行涉及症状的文字同步。</p>
+<blockquote class="source">If your dog is struggling to breathe — pawing at the mouth, retching without bringing anything up, or gums that look blue or grey…<br>contact your veterinarian promptly for…a painful or swollen abdomen</blockquote>
+<p><strong>为什么改：</strong>破折号把扒嘴、干呕写成呼吸困难的同义解释，读者可能混淆。反复干呕和腹胀也可能见于胃扩张扭转等急症，不能用它们直接认定生皮阻塞。原文已有“不等待自行排出、不自行催吐”，应保留求助方向。</p>
+<p><strong>怎么改：</strong>保留标题，其后所有文字整体替换；症状与处置引用新增VCA急症页，而不是ASPCA立场声明。</p>
+<div class="copy" lang="en"><p><strong>Go to an emergency veterinary clinic now</strong> if your dog has difficulty breathing, repeatedly tries to vomit without bringing anything up, or develops a suddenly swollen abdomen. Call the clinic while arranging transport. These signs can have several serious causes and should not be assumed to be a rawhide blockage. <a href="https://vcahospitals.com/know-your-pet/common-emergencies-in-dogs">VCA emergency guidance</a></p>
+<p><strong>Contact your veterinarian promptly</strong> if your dog swallows a large piece, or you suspect a piece was swallowed but cannot tell its size, even if your dog seems well. Also report vomiting, reduced appetite, unusual lethargy, abdominal discomfort, or difficulty passing stool. <a href="https://www.aspca.org/about-us/aspca-policy-and-position-statements/position-statement-dog-chewstreats">ASPCA chew guidance</a>; <a href="https://vcahospitals.com/know-your-pet/ingestion-of-foreign-bodies-in-dogs">VCA foreign-body guidance</a></p>
+<p>Tell the veterinarian when it happened, the approximate size of the piece, and your dog's symptoms. Keep the product label available. Do not attempt home treatment or induce vomiting unless the veterinarian instructs you. Do not put your fingers into the mouth of a choking dog, and do not delay the call to wait for the piece to pass.</p></div>
+<p class="note">本段是求助指引，不提供家庭急救、取异物或催吐步骤。“不要自行处理”是保守处置原则；VCA急症页关于催吐的具体文字出现在中毒小节，不应被标成针对rawhide的专门试验结论。涉及医疗行动的最终对外文案建议由兽医复核。</p>
+</section>
+
+<section id="edit08"><h2>08 比较标签和单款产品 避免暗示两类风险相等</h2><p class="priority">P1</p>
+<p class="location">位置：第66行rawhide-free段落、第90至99行Rawhide and Alternative Chews Compared。</p>
+<blockquote class="source">Neither category is automatically safer.<br>A label rather than a material: plant starch, vegetable, rice, sweet potato, or another protein.</blockquote>
+<p><strong>为什么改：</strong>“rawhide-free不是安全保证”可以成立，但不能进一步写成“两类同样安全或同样危险”。现有引用并非所有材料的直接比较研究。比较的维度也应同时覆盖配料、限制条件和热量。</p>
+<p><strong>怎么改：</strong>第66行删除以避免重复；保留本节标题，第91至98行导语、表格及结语替换如下。第99行的选购指南和两条集合页链接可以保留。</p>
+<div class="copy" lang="en"><p>Rawhide and rawhide-free labels cover products with different ingredients, sizes, and textures. Compare the individual product with your dog's needs.</p><div class="table-wrap"><table><thead><tr><th>Chew type</th><th>What the label tells you</th><th>What still needs checking</th></tr></thead><tbody><tr><td>Rawhide</td><td>The chew contains processed animal hide.</td><td>Full ingredients, dimensions, firmness, calories, feeding directions, and how your dog handles it.</td></tr><tr><td>Rawhide-free</td><td>The product is labeled as containing no rawhide; its formula may use other ingredients.</td><td>The same checks, including dietary restrictions and whether pieces can be torn off and swallowed.</td></tr></tbody></table></div><p>A rawhide-free label alone does not establish lower choking or blockage risk. This does not mean every alternative has the same risk as rawhide. Ask your veterinarian which product and reward format fit your dog's teeth, health, and chewing behavior.</p></div>
+<p class="note">本项是证据边界和选购方法，不是比较试验结论。也未新增“rawhide-free等于无动物来源”“植物基更健康”或“collagen一定更易消化”等未被本文证明的说法。</p>
+</section>
+
+<section id="edit09"><h2>09 产品卡移除未经核验的推荐结论</h2><p class="priority">P1 产品事实待确认 幼犬口径与P0同步</p>
+<p class="location">位置：第100至104行Rawhide Chews Worth Comparing。第104行连续包含三张产品卡，定位时按产品名区分。</p>
+<blockquote class="source">Pack sizes and prices below are taken from the product listings at the time of this update (October 2026)<br>Label guidance: the listing is grouped under puppies and small dogs.</blockquote>
+<p><strong>已确认：</strong>这些表述出现在当前HTML。<strong>未确认：</strong>本次没有读取三款SKU的实时Notion产品主数据、有效Claim、包装及当前售价。因此不能认定尺寸、重量、数量或价格有误，也不能把它们当成已核实事实。</p>
+<p><strong>两个具体问题：</strong>“Label guidance”后引用的是listing分类，混淆了包装标签与卖家页面；“October 2026取自页面”是在陈述核验行为，没有记录时不应保留。10.2 oz比9.38 oz价格低是核验线索，不能仅凭大小与售价顺序判错。</p>
+<div class="table-wrap"><table><thead><tr><th>原卡片</th><th>需逐项核实的原稿数据</th><th>共同待确认</th></tr></thead><tbody>
+<tr><td>Natural Flavor 6.5-Inch Rawhide Roll Sticks</td><td>6.5英寸；10.2 / 9.38 / 22.58 / 33.86 oz；分别$16.99 / $21.99 / $29.99 / $39.99</td><td rowspan="3">正式名称、原料与Natural相关表述、幼犬及小型犬适用范围、完整配方、热量、年龄尺寸限制、包装喂食说明、SKU与变体对应关系</td></tr>
+<tr><td>Natural Flavor 5-Inch Thin Rawhide Twist Sticks</td><td>5英寸及thin；60 / 120 count；分别$18.99 / $28.99</td></tr>
+<tr><td>Natural Beefhide Mini Rawhide Knot Bones</td><td>beefhide；2.5英寸；60 / 100 count；分别$21.99 / $30.99</td></tr>
+</tbody></table></div>
+<p><strong>推荐的当前处理：</strong>事实未核实前，将整个产品推荐区文字替换为下方中性品牌入口。它保留MON2SUN相关性，不以未经确认的幼犬适用性促成购买。核验完成后，再决定是否恢复具体卡片。不得把保守替换当成修改产品主数据的授权。</p>
+<div class="copy" lang="en"><h4>Compare MON2SUN Chew Options</h4><p>Before choosing a MON2SUN chew, review the exact product's ingredients, dimensions, calorie information, and feeding directions. Ask for any missing information before deciding on a portion. For a puppy or a dog with dental or digestive problems, ask your veterinarian about suitable chewing options first.</p><p><a href="https://www.mon2sun.com/collections/natural-rawhide">View MON2SUN Rawhide Chews</a> · <a href="https://www.mon2sun.com/collections/chicken-meat-rawhide-free-treats">View MON2SUN Rawhide-Free Treats</a></p></div>
+<p><strong>若后续决定保留卡片：</strong>先完成上表核验；“for Puppies”如不获采用，应同步处理卡片标题、链接提示文字和图片替代文字中的同一句适用性表述。这里只指出文字口径同步范围，不审图片或改代码。价格可留在购买页，减少正文时效维护；保留价格则必须记录准确变体、核验日期和币种。</p>
+</section>
+
+<section id="edit10"><h2>10 五条FAQ直接回答并保留必要条件</h2><p class="priority">P1 幼犬与急症答案按P0修订</p>
+<p class="location">位置：第106至117行Frequently Asked Questions。</p>
+<p><strong>怎么改：</strong>保留现有五个问题和顺序，答案整体替换。不开新一轮重复FAQ，也不声称问题具有已验证的搜索量。第132行保存着同一组答案的另一份文字，采用后需由实施人员保持一致；本次不提供或修改结构化数据代码。</p>
+<div class="copy" lang="en"><h4>Is rawhide actually bad for dogs?</h4><p>Rawhide carries choking and digestive-blockage risks, especially if large pieces are swallowed. It can also cause stomach upset, and very hard chews can damage teeth. Suitability depends on the dog and the specific product. Supervision and appropriate sizing do not eliminate risk.</p>
+<h4>What are rawhide chews made of?</h4><p>Rawhide chews are made from processed animal skin. Added ingredients and manufacturing methods vary. Check the complete ingredient list and ask the manufacturer about any missing information. The material name alone does not establish digestibility or safety.</p>
+<h4>Can puppies have rawhide chews?</h4><p>VCA advises avoiding rawhide for puppies because of tooth-fracture and swallowed-piece risks. Ask your veterinarian for an age-appropriate alternative. A “for puppies” label or the arrival of adult teeth does not establish that a rawhide chew is suitable for your puppy. <a href="https://vcahospitals.com/pediatric/puppy/prep-supplies/puppy-dental-treats">VCA puppy guidance</a></p>
+<h4>How much rawhide can a dog have per day?</h4><p>There is no universal daily amount that makes rawhide safe. Treats and edible chews should generally stay within 10% of daily calories, or a lower veterinary limit. This is a calorie budget, not a safe swallowing allowance. Follow the product's directions and your veterinarian's advice; chewing time does not measure the amount consumed. <a href="https://vcahospitals.com/know-your-pet/dog-treats">VCA treat guidance</a></p>
+<h4>What should I do if my dog swallows a piece of rawhide?</h4><p>Seek emergency veterinary care for breathing difficulty, repeated unproductive retching, or a suddenly swollen abdomen. For a swallowed large piece or an uncertain piece size, contact your veterinarian promptly even if your dog seems well. Do not attempt home treatment or induce vomiting unless instructed, and do not wait for the piece to pass before calling. <a href="https://vcahospitals.com/know-your-pet/common-emergencies-in-dogs">VCA emergency guidance</a>; <a href="https://www.aspca.org/about-us/aspca-policy-and-position-statements/position-statement-dog-chewstreats">ASPCA chew guidance</a></p></div>
+<p class="note">FAQ的价值是让单独摘录仍包含限制条件。没有证据说明“增加问题数量”或“固定回答字数”能保证AI引用。</p>
+</section>
+
+<section id="edit11"><h2>11 结尾减少重复 保留标签与兽医建议</h2><p class="priority">P2</p>
+<p class="location">位置：第119至122行Final Thoughts正文、第125行品牌CTA段落。</p>
+<blockquote class="source">Those three decisions matter more than any claim printed on the pack</blockquote>
+<p><strong>为什么改：</strong>不能用尺寸、硬度和监督笼统压过所有包装信息，真实的适龄、配料及喂食限制仍重要。结尾三段和品牌CTA重复前文四条要点，新增决策信息有限。</p>
+<p class="label">第120至122行合并为一段</p><div class="copy" lang="en"><p>Rawhide is optional. If your dog gulps chews, has dental or digestive problems, or is still a puppy, ask your veterinarian about suitable alternatives. If rawhide is appropriate for your dog, follow the product's directions, supervise actively, and remove loose or small pieces. No fixed chewing time or calorie allowance removes the risk.</p></div>
+<p class="label">第125行CTA段落替换</p><div class="copy" lang="en"><p>Compare the ingredients, dimensions, calorie information, and feeding directions for the exact product you are considering before choosing a chew.</p></div>
+<p class="note">原有品牌标语和Shop Rawhide Chews按钮可保留。上述处理不新增calming、dental cleaning、long-lasting或easier to digest等产品功效宣称。</p>
+</section>
+
+<section id="edit12"><h2>12 引用放在真正支持的句子后</h2><p class="priority">P1</p>
+<p class="location">位置：第20行署名日期、第131行References &amp; Resources，以及正文各引文。</p>
+<p><strong>核实结果：</strong>原五个参考来源本次均可读取。问题主要是结论超出来源范围或引用位置不对应，不是“没有引用”。建议保留这五个来源，增加幼犬和急症的直接资料。</p>
+<div class="table-wrap"><table><thead><tr><th>原引用</th><th>可以支撑</th><th>不应继续承担</th></tr></thead><tbody>
+<tr><td>[1] ASPCA立场声明</td><td>吞块、整吞、监督、吞咽后联系兽医</td><td>所有严重病例的完整归因；呼吸困难和干呕症状清单</td></tr>
+<tr><td>[2] AKC Rawhide</td><td>消化性因犬和产品而异；一般风险与个体判断</td><td>所有rawhide均不可消化；具体MON2SUN产品的消化率或安全性</td></tr>
+<tr><td>[3] AKC Edible Chews</td><td>尺寸、硬度、咬掉大块后取走</td><td>恒齿长齐即适用；主人喂养习惯调查；产地和工艺披露认证</td></tr>
+<tr><td>[4] VCA Dog Treats</td><td>10%热量预算、疾病和处方饮食限制</td><td>安全吞食量、每天安全根数、每天安全咀嚼时间</td></tr>
+<tr><td>[5] VCA Foreign Bodies</td><td>异物风险、胃肠症状、检查与影像</td><td>牙龈疾病、幼犬适用性或窒息急救的专门证据</td></tr>
+</tbody></table></div>
+<p class="label">新增References条目文字</p><div class="copy" lang="en"><p><strong>VCA Animal Hospitals — How to Choose Puppy Dental Treats</strong><br><a href="https://vcahospitals.com/pediatric/puppy/prep-supplies/puppy-dental-treats">https://vcahospitals.com/pediatric/puppy/prep-supplies/puppy-dental-treats</a></p><p><strong>VCA Animal Hospitals — Emergencies in Dogs</strong><br><a href="https://vcahospitals.com/know-your-pet/common-emergencies-in-dogs">https://vcahospitals.com/know-your-pet/common-emergencies-in-dogs</a></p></div>
+<p><strong>引用采用方式：</strong>英文替换块中的外链对应具体句子。若博客沿用数字脚注，可将新增资料编号为[6]和[7]，并核对每处引用；不要把报告中的S编号直接混入博客。医学求助提醒也不应因换成脚注而丢掉文字条件。</p>
+<p><strong>署名和日期：</strong>可保留真实的MON2SUN Team署名，不补写未发生的“兽医审核”。Updated October 20, 2026仅适用于该日实际完成并采用的修订；本报告完成不代表网站当天已更新。原一般信息免责声明可保留，不能用它替代正文准确性。</p>
+</section>
+
+<section id="acceptance"><h2>采用建议与验证边界</h2>
+<p><strong>最小采用顺序：</strong>先统一第05、07、09、10项涉及的幼犬与急症口径，再处理病例式表述、消化性限定及10%边界，最后压缩定义和结尾。目录文字随最终采用的标题同步。</p>
+<p><strong>产品事实待办：</strong>产品主数据、有效Claim、当前包装及售价需要各自来源确认。没有把卖家页面、图片文件名、URL或“October 2026”描述当成已完成核验。本报告不授权修改任何产品事实。</p>
+<p><strong>GEO目标：</strong>让“是否有风险、哪些犬只需避开、吞咽后怎么办、rawhide-free意味着什么”形成完整、可核查的回答。这是内容质量判断，不是排名或引用率预测。Google官方说明未要求特殊AI优化，也不保证展示；不能外推成其他AI平台的引用规则。<a href="#s8">见S8</a>。</p>
+<p><strong>本次未做：</strong>线上版本比对、搜索量研究、竞品排名、产品主数据核验、图片及页面代码审查、内链目标页逐一审核、AI采样或监测启用。因此没有给出GEO分数或提升百分比。当前监测暂停状态保持不变。</p>
+<p><strong>后续若获准复测：</strong>遵循当前批准的问题集和采样流程，保留原问题、完整答案、引用、时间、模型模式及实际或未知地区。现行带MON2SUN的问法测量已知品牌评价，不能把结果当作自然发现率。此处仅说明效果验证边界，不启动测试。</p>
+</section>
+
+<section id="sources"><h2>已核实来源及适用范围</h2><p>医学与动物福利资料于2026年10月20日本轮读取；Google资料于同日上一轮审阅读取。下列材料属于一般指导，不是MON2SUN产品安全性或功效验证。英文候选稿为编辑改写，不冒充来源原句。</p>
+<ol class="source-list">
+<li id="s1"><strong>S1 ASPCA — Position Statement on Dog Chews/Treats</strong><br><a href="https://www.aspca.org/about-us/aspca-policy-and-position-statements/position-statement-dog-chewstreats">读取来源</a><br>机构立场与一般风险指引。支持监督和吞块后的兽医咨询；不提供病例分母、风险发生率或全部病因分类。</li>
+<li id="s2"><strong>S2 American Kennel Club — Are Rawhide Chews Dangerous for Dogs?</strong><br><a href="https://www.akc.org/expert-advice/health/are-rawhide-chews-dangerous-for-dog/">读取来源</a><br>支持消化性和适用性因犬与产品而异。没有可用于本稿三款产品的消化率、污染检测或安全认证数据。</li>
+<li id="s3"><strong>S3 American Kennel Club — How to Pick Safe, Edible Dog Chews</strong><br><a href="https://www.akc.org/expert-advice/nutrition/choosing-edible-chews-for-dogs/">读取来源</a><br>支持尺寸、硬度与监督考虑。不是所有替代材料与rawhide风险相等的比较研究，也不支持原稿的幼犬恒齿时间线。</li>
+<li id="s4"><strong>S4 VCA Animal Hospitals — Dog Treats</strong><br><a href="https://vcahospitals.com/know-your-pet/dog-treats">读取来源</a><br>支持热量预算和处方饮食限制。营养上限与噎食、阻塞风险需要分开判断。</li>
+<li id="s5"><strong>S5 VCA Animal Hospitals — Ingestion of Foreign Bodies in Dogs</strong><br><a href="https://vcahospitals.com/know-your-pet/ingestion-of-foreign-bodies-in-dogs">读取来源</a><br>支持吞食异物后的症状、检查与影像思路。症状并不能让读者自行确定位置或病因。</li>
+<li id="s6"><strong>S6 VCA Animal Hospitals — How to Choose Puppy Dental Treats</strong><br><a href="https://vcahospitals.com/pediatric/puppy/prep-supplies/puppy-dental-treats">读取来源</a><br>该来源明确建议幼犬避免rawhide及骨头。报告将建议归属于VCA，没有将其包装为所有兽医一致意见，也没有设定通用安全月龄。</li>
+<li id="s7"><strong>S7 VCA Animal Hospitals — Emergencies in Dogs</strong><br><a href="https://vcahospitals.com/know-your-pet/common-emergencies-in-dogs">读取来源</a><br>支持呼吸困难、反复无效呕吐及腹胀的急症处理，并提醒不要把手指伸进窒息犬嘴里。反复干呕也可能与胃扩张扭转有关，不能只解释为rawhide窒息。</li>
+<li id="s8"><strong>S8 Google Search Central — AI features and your website</strong><br><a href="https://developers.google.com/search/docs/appearance/ai-features">读取来源</a><br>用于本报告的GEO判断。强调可靠、对用户有用的内容，达到要求不保证展示。只适用于Google相关功能，不作为消费者博客的兽医参考资料。</li>
+</ol></section>
+<footer class="divider"><p class="note">源文件SHA256：<span class="code">9755B38030387FF819B0537453F1C6EE1C6A0779CA44086F760DB388D623EB88</span></p><p class="note">原HTML保持不变。此文件只呈现审阅意见、引用核查与候选替换稿；未发布、未修改产品信息或监测设置。</p></footer>
+</main></body></html>
